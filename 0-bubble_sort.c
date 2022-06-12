@@ -4,6 +4,7 @@
  * bubble_sort - ordenar(asc) array de ints con metodo burbuja
  * @array: puntero al array
  * @size: largo del array
+ * Return: void
  */
 
 void bubble_sort(int *array, size_t size)
