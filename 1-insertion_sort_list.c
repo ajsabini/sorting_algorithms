@@ -15,7 +15,7 @@ void insertion_sort_list(listint_t **list)
 	auxHead = *list;
 	while (auxHead)
 	{
-		while (auxHead->prev && auxHead->n < auxHead->prev->n)
+		while (auxHead->prev && (auxHead->n < auxHead->prev->n))
 		{
 			node = auxHead->prev;
 			if (auxHead->prev->prev)
